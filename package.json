@@ -1,0 +1,29 @@
+{
+  "name": "Rewe_Group_Test",
+  "version": "0.0.1",
+  "description": "Common libraries that are used in all test frameworks ",
+  "dependencies": {
+    "@types/mssql": "^4.0.7",
+    "async": "latest",
+    "chai": "latest",
+    "glob": "latest",
+    "mocha": "^3.2.0",
+    "optimist": "latest",
+    "q": "latest",
+    "requestify": "latest",
+    "selenium-webdriver": "latest"
+  },
+  "devDependencies": {
+    "jsdom": "11.9.0",
+    "jsdom-global": "3.0.2",
+    "mocha-bamboo-reporter": "latest",
+    "mocha-simple-html-reporter": "^1.1.0",
+    "mochawesome": "^3.0.2",
+    "xunit-file": "^1.0.0"
+  },
+  "scripts": {
+    "test": "mocha  --recursive tests/rewetest -t 900000000  -R good-mocha-html-reporter --report-path ./Reports/\"Rewe Sanities\"/\"Rewe Sanity Suitelogs\"/ReweReport.html --report-mode Verbose "
+  },
+  "author": "Bejide Oluwole Daniel <digitiqman@gmail.com>",
+  "license": "MIT License"
+}
