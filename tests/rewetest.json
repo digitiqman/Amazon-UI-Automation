@@ -1,0 +1,70 @@
+{
+  "default_browser": "chrome",
+  "home":{
+    "url": "http://amazon.com"
+  },
+  "logindetails":{
+    "loginGroupXpath": "//*[@id='nav-link-accountList']",
+    "loginXpath": "//*[@id='nav-flyout-ya-signin']/a",
+    "loginEmailId": "ap_email",
+    "loginContinueId": "continue",
+    "loginPasswordId": "ap_password",
+    "loginSigninId": "signInSubmit",
+    "loggedInXpath": "//*[@id='nav-link-accountList']/span[1]",
+    "logoutId": "nav-item-signout-sa",
+    "loggedInGreetings": "Hello, Digit"
+  },
+  "searchdetails":{
+    "searchBoxId": "twotabsearchtextbox",
+    "searchButtonXpath": "//*[@id='nav-search']/form/div[2]/div/input",
+    "firstSearchWord": "Laptop",
+    "secondSearchWord": "Laptop Bag",
+    "firstSearchConXpath": "//*[@id='result_0']/div/div/div",
+    "firstResultTitleXpath": "//*[@id='result_0']/div/div/div/div[2]/div[2]/div[1]/a/h2",
+    "firstResultMustContainWord": "Laptop",
+    "firstResultLinkXpath": "//*[@id='result_0']/div/div/div/div[2]/div[2]/div[1]/a",
+    "productImageMagId": "imgTagWrapperId",
+    "productImageMagClickId": "magnifierLens",
+    "productImageZoomId": "ivLargeImage",
+    "closeImageMagClass": "a-button-close"
+  },
+  "checkoutdetails":{
+    "changeSectionXpath": "//*[@id='nav-search']/form/div[1]",
+    "changeSectionSelectXpath": "//*[@id='searchDropdownBox']",
+    "changeSectionText": "Books",
+    "changeChoiceDomType": "option",
+    "firstSearchWord": "Interview",
+    "secondSearchWord": "Git",
+    "thirdSearchWord": "Selenium",
+    "firstResultTitleCss": "li#result_0 div.a-fixed-left-grid a > h2",
+    "firstResultLinkCss": "li#result_0 div.a-fixed-left-grid a",
+    "secondResultTitleXpath": "//*[@id='result_1']/div/div/div/div[2]/div[1]/div[1]/a/h2",
+    "secondResultLinkXpath": "//*[@id='result_1']/div/div/div/div[2]/div[1]/div[1]/a",
+    "thirdResultTitleXpath": "//*[@id='result_0']/div/div/div/div[2]/div[1]/div[1]/a/h2",
+    "thirdResultLinkXpath": "//*[@id='result_0']/div/div/div/div[2]/div[1]/div[1]/a",
+    "lookInsideId": "booksImageBlock_feature_div",
+    "productImageZoom+Id": "sitbReaderTitlebarZoomIn",
+    "productImageZoom-Id": "sitbReaderTitlebarZoomOut",
+    "closeProductDetailsId": "sitbReaderCloseButton",
+    "addToCartId": "add-to-cart-button",
+    "goToCartId": "nav-cart",
+    "proceedToCheckoutId": "sc-buy-box-ptc-button",
+    "itemDeletionCss": "#activeCartViewForm  span > input",
+    "emptyCartIndicatorXpath": "//*[@id='activeCartViewForm']/div/h2",
+    "emptyCartIndicatorText": "Your Shopping Cart is empty"
+  },
+  "userdata":{
+    "email": "digitiqman@gmail.com",
+    "password": "@#$%!^&&*()_+?",
+    "loginXpath": "//*[@id='nav-flyout-ya-signin']/a",
+    "loginEmailId": "ap_email",
+    "loginContinueId": "continue"
+  },
+  "type":{
+    "xpath":"xpath",
+    "css":"css",
+    "class":"class",
+    "id":"id"
+  }
+
+}
